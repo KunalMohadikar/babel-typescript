@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "allowJs": true,
+      "noEmit": true,
+      "moduleResolution": "node",
+      "strict": true,
+      "lib": [ "es2015" ],
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": [
+      "./src/**/*"
+    ]
+  }
